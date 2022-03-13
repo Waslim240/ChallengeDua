@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/f"
+        android:textSize="18sp"
+        android:textColor="@color/oranye"
+        android:text="@string/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_toEndOf="@+id/f"
+        android:id="@+id/flash"
+        android:src="@drawable/flash"
+        android:layout_width="15dp"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/flash"
+        android:id="@+id/sale"
+        android:textSize="18sp"
+        android:textColor="@color/oranye"
+        android:text="@string/sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/sale"
+        android:id="@+id/jam"
+        android:src="@drawable/jam"
+        android:layout_width="80dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:textSize="16sp"
+        android:layout_toStartOf="@+id/kanan"
+        android:text="@string/lihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="3dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/kanan"
+        android:src="@drawable/kanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

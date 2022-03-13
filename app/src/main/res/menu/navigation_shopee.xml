@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/rekomendasi"
+        android:title="@string/nav_rekomendasi_shopee"
+        android:id="@+id/fekomendasi"/>
+
+    <item
+        android:icon="@drawable/feed"
+        android:title="@string/nav_feed_shopee"
+        android:id="@+id/feed"/>
+
+    <item
+        android:icon="@drawable/live"
+        android:title="@string/nav_shopee_live_shopee"
+        android:id="@+id/live"/>
+
+    <item
+        android:icon="@drawable/notif"
+        android:title="@string/nav_notifikasi_shopee"
+        android:id="@+id/notif"/>
+
+    <item
+        android:icon="@drawable/saya"
+        android:title="@string/nav_saya_shopee"
+        android:id="@+id/saya"/>
+
+</menu>

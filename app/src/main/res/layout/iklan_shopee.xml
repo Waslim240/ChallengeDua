@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="145dp"
+            android:src="@drawable/promo_shopee_satu" />
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/promo_shopee_dua"/>
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/promo_shopee_satu" />
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="145dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/promo_shopee_dua"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

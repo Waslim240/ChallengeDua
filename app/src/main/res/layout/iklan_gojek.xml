@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/diskon_1"
+            android:layout_width="387dp"
+            android:layout_height="170dp"
+            android:src="@drawable/diskon_gojek"/>
+
+        <TextView
+            android:id="@+id/festival"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/diskon_1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/festival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_below="@+id/diskon_1"
+            android:layout_toEndOf="@+id/festival"
+            android:id="@+id/emot"
+            android:layout_marginTop="7dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/emot_love"/>
+
+        <TextView
+            android:id="@+id/temukan"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/festival"
+            android:textStyle="bold"
+            android:text="@string/temukan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/klik"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/temukan"
+            android:textStyle="bold"
+            android:text="@string/dengan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_toEndOf="@+id/klik"
+            android:layout_below="@id/temukan"
+            android:src="@drawable/suka"
+            android:id="@+id/suka"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+</RelativeLayout>
